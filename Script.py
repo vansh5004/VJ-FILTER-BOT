@@ -469,16 +469,12 @@ BOT WORKING PROPERLY"""
  sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href='https://shrtfly.com/ref/vansh5241'>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
  sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ  ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
- 
  Exp: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
 
- Add a video
-
- 👇 How to add 👇
-
+ Aᴅᴅ ᴀ ᴠɪᴅᴇᴏ
  Exp: /set_tutorial video link
 
-Also your tutorial will be Added Your Group..."""
+ Aʟsᴏ ʏᴏᴜʀ ᴛᴜᴛᴏʀɪᴀʟ ᴡɪʟʟ ʙᴇ Aᴅᴅᴇᴅ Yᴏᴜʀ Gʀᴏᴜᴘ..."""
 
     TELUGU_INFO = """
 హే <a href='tg://settings'>My Friend</a> 
