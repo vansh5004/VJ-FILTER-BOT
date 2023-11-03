@@ -317,7 +317,7 @@ async def start(client, message):
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ],[
-                    InlineKeyboardButton('How to Verify', url='https://t.me/rtx_backup/18'))
+                    InlineKeyboardButton("How to Verify", url='https://t.me/rtx_backup/18'))
                       ]]
                 await message.reply_text(
                     text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ\n फ़ॉन्ट आप Verify नहीं हैं!\nकृपया जारी रखने के लिए सत्यापित करें ताकि आप अभी 1 दिन तक असीमित मूवी तक पहुंच प्राप्त कर सकें</b>",
