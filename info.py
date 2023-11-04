@@ -104,21 +104,21 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://updated-version.onrender.com".format(FQDN) if ON_HEROKU or NO_PORT else \
+FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_RENDER or getenv('FQDN') else APP_NAME+'.render.com'
+URL = "https://updated-version.onrender.com".format(FQDN) if ON_RENDER or NO_PORT else 
     "https://updated-version.onrender.com".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'VANSH BOT'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'LazyPrincess'))
+name = str(environ.get('name', 'VANSH-YADAV'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = True
+    ON_RENDER = True
     APP_NAME = str(getenv('APP_NAME'))
 
 else:
-    ON_HEROKU = False
+    ON_RENDER = True
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://updated-version.onrender.com".format(FQDN)
