@@ -1022,15 +1022,15 @@ async def showshortlink(bot, message):
     chat_id=message.chat.id
     userid = message.from_user.id
     user = await bot.get_chat_member(grpid, userid)
-#     if 'shortlink' in settings.keys():
-#         su = settings['shortlink']
-#         sa = settings['shortlink_api']
-#     else:
-#         return await message.reply_text("<b>Shortener Url Not Connected\n\nYou can Connect Using /shortlink command</b>")
-#     if 'tutorial' in settings.keys():
-#         st = settings['tutorial']
-#     else:
-#         return await message.reply_text("<b>Tutorial Link Not Connected\n\nYou can Connect Using /set_tutorial command</b>")
+     if 'shortlink' in settings.keys():
+         su = settings['shortlink']
+         sa = settings['shortlink_api']
+     else:
+         return await message.reply_text("<b>Shortener Url Not Connected\n\nYou can Connect Using /shortlink command</b>")
+     if 'tutorial' in settings.keys():
+         st = settings['tutorial']
+     else:
+         return await message.reply_text("<b>Tutorial Link Not Connected\n\nYou can Connect Using /set_tutorial command</b>")
     if user.status != enums.ChatMemberStatus.ADMINISTRATOR and user.status != enums.ChatMemberStatus.OWNER and str(userid) not in ADMINS:
         return await message.reply_text("<b>Tʜɪs ᴄᴏᴍᴍᴀɴᴅ Wᴏʀᴋs Oɴʟʏ Fᴏʀ ᴛʜɪs Gʀᴏᴜᴘ Oᴡɴᴇʀ/Aᴅᴍɪɴ\n\nTʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪɴ ʏᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ, Iғ Yᴏᴜ Aʀᴇ Usɪɴɢ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ</b>")
     else:
