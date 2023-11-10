@@ -91,7 +91,7 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://graph.org/file/db438d99dfbe6eecb5449.jpg",
-            caption="**😅 Sᴏʀʀʏ ᴍᴇʀᴇ ɪᴀᴀɴ 😅\nYᴏᴜ ᴀʀᴇ ɴᴏᴛ Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ\nJᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            caption="**😅 Sᴏʀʀʏ ᴍᴇʀᴇ Jᴀᴀɴ 😅\nYᴏᴜ ᴀʀᴇ ɴᴏᴛ Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ\nJᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ\n\n Tʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇs...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
