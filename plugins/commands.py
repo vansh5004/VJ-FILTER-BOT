@@ -90,7 +90,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="",
+            photo="https://graph.org/file/db438d99dfbe6eecb5449.jpg",
             caption="**😅 Sᴏʀʀʏ ᴍᴇʀᴇ ɪᴀᴀɴ 😅\nYᴏᴜ ᴀʀᴇ ɴᴏᴛ Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ\nJᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
