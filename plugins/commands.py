@@ -33,7 +33,7 @@ async def start(client, message):
                     InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/rtx_backup"),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/vip_bro10')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -56,7 +56,7 @@ async def start(client, message):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKpPdlQIZxouanXa17epV-jnXeqsnqXQACFAADwSQxMciWOhFguEZJMwQ") 
@@ -106,7 +106,7 @@ async def start(client, message):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
