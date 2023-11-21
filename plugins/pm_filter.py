@@ -1299,7 +1299,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1402,8 +1402,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
+            InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', url='https://t.me/premium_user_002_bot?start=655c370f22c9d6e1cd07ce8d')
+        ],[
             InlineKeyboardButton('⇚Back', callback_data='start')
-        ]]
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
