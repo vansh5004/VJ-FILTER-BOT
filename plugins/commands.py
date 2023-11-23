@@ -78,7 +78,7 @@ async def start(client, message):
             return
         btn = [
             [
-                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
+                InlineKeyboardButton("Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ ✨", url=invite_link.invite_link)
             ]
         ]
 
@@ -90,8 +90,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://graph.org/file/db438d99dfbe6eecb5449.jpg",
-            caption="**😅 Sᴏʀʀʏ ᴍᴇʀᴇ Jᴀᴀɴ 😅\nYᴏᴜ ᴀʀᴇ ɴᴏᴛ Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ\nJᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ\n\n Tʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇs...**",
+            caption="**ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴘʟᴇᴀsᴇ ɪᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
