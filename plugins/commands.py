@@ -62,13 +62,13 @@ async def start(client, message):
         m=await message.edit_text(
             text="sʏsᴛᴇᴍ ᴘᴀᴀᴅ ᴅᴇɴɢᴇ ⚡️"
         ) 
-        await query.message.edit_text(
+        m=await query.message.edit_text(
             text="Cʜᴇᴄᴋɪɴɢ = ▮▯▯"
         )
-        await query.message.edit_text(
+        m=await query.message.edit_text(
             text="Cʜᴇᴄᴋɪɴɢ = ▮▮▯"
         )
-         await query.message.edit_text(
+        m=await query.message.edit_text(
             text="Cʜᴇᴄᴋɪɴɢ = ▮▮▮"
         )
         await asyncio.sleep(1)
