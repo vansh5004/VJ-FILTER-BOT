@@ -59,18 +59,7 @@ async def start(client, message):
                     InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.edit_text(
-            text="sʏsᴛᴇᴍ ᴘᴀᴀᴅ ᴅᴇɴɢᴇ ⚡️"
-        ) 
-        await query.message.edit_text(
-            text="Cʜᴇᴄᴋɪɴɢ = ▮▯▯"
-        )
-        await query.message.edit_text(
-            text="Cʜᴇᴄᴋɪɴɢ = ▮▮▯"
-        )
-        await query.message.edit_text(
-            text="Cʜᴇᴄᴋɪɴɢ = ▮▮▮"
-        )
+        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
