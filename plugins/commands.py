@@ -59,7 +59,18 @@ async def start(client, message):
                     InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKpPdlQIZxouanXa17epV-jnXeqsnqXQACFAADwSQxMciWOhFguEZJMwQ") 
+        m=await message.edit_text(
+            text="sʏsᴛᴇᴍ ᴘᴀᴀᴅ ᴅᴇɴɢᴇ ⚡️"
+        ) 
+        await query.message.edit_text(
+            text="Cʜᴇᴄᴋɪɴɢ = ▮▯▯"
+        )
+        await query.message.edit_text(
+            text="Cʜᴇᴄᴋɪɴɢ = ▮▮▯"
+        )
+         await query.message.edit_text(
+            text="Cʜᴇᴄᴋɪɴɢ = ▮▮▮"
+        )
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -141,7 +152,7 @@ async def start(client, message):
             f_caption=msg.get("caption", "")
             if BATCH_FILE_CAPTION:
                 try:
-                    f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+                    f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, 🍁, file_caption='' if f_caption is None else f_caption)
                 except Exception as e:
                     logger.exception(e)
                     f_caption=f_caption
@@ -201,7 +212,7 @@ async def start(client, message):
                 media = getattr(msg, msg.media.value)
                 if BATCH_FILE_CAPTION:
                     try:
-                        f_caption=BATCH_FILE_CAPTION.format(file_name=getattr(media, 'file_name', ''), file_size=getattr(media, 'file_size', ''), file_caption=getattr(msg, 'caption', ''))
+                        f_caption=BATCH_FILE_CAPTION.format(file_name=getattr(media, 'file_name', ''), file_size=getattr(media, 'file_size', ''), 🍁, file_caption=getattr(msg, 'caption', ''))
                     except Exception as e:
                         logger.exception(e)
                         f_caption = getattr(msg, 'caption', '')
@@ -404,7 +415,7 @@ async def start(client, message):
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
                 try:
-                    f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
+                    f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, 🍁, file_caption='')
                 except:
                     return
             await msg.edit_caption(f_caption)
@@ -425,7 +436,7 @@ async def start(client, message):
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
         try:
-            f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+            f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, 🍁, file_caption='' if f_caption is None else f_caption)
         except Exception as e:
             logger.exception(e)
             f_caption=f_caption
