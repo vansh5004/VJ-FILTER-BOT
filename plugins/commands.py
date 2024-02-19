@@ -55,9 +55,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
-                  ]]
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ")
         await asyncio.sleep(1)
@@ -104,9 +102,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('Bᴜʏ Mᴏᴠɪᴇ Mᴇᴍʙᴇʀsʜɪᴘ / 𝟷 Dᴀʏ Tʀɪᴀʟ', callback_data='source')
-                  ]]
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -317,7 +313,7 @@ async def start(client, message):
                     InlineKeyboardButton("How to Verify", url="https://t.me/rtx_backup/18")
                       ]]
                 await message.reply_text(
-                    text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ</b>",
+                    text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ\n\nBᴜʏ Pʟᴀɴ ᴇɴɪᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ /plan\nCʜᴇᴄᴋ Pʟᴀɴ /myplan</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -380,7 +376,7 @@ async def start(client, message):
                     InlineKeyboardButton("How To Verify", url="https://t.me/rtx_backup/18")
                       ]]
                 await message.reply_text(
-                    text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ</b>",
+                    text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ\n\nBᴜʏ Pʟᴀɴ ᴇɴɪᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ /plan\nCʜᴇᴄᴋ Pʟᴀɴ /myplan</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -438,7 +434,7 @@ async def start(client, message):
             InlineKeyboardButton("How To Verify", url="https://t.me/rtx_backup/18")
              ]]
         await message.reply_text(
-            text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ</b>",
+            text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғʏ!\nᴋɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ ᴜɴᴛɪʟ 𝟷 ᴅᴀʏ ғᴏʀ ɴᴏᴡ\n\nBᴜʏ Pʟᴀɴ ᴇɴɪᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇ /plan\nCʜᴇᴄᴋ Pʟᴀɴ /myplan</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
