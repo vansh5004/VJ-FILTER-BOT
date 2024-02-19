@@ -58,5 +58,7 @@ colorama
 openai==0.25.0
 
 
-
+# /myplan command Run karne me help kar ra hai ye code don`t remove this code you are remove this code facing More error
+python-telegram-bot>=12.8,<14.0
+aiogram==2.17
   
